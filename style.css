@@ -1,0 +1,78 @@
+body {
+	font-family: sans-serif;
+	color: darkblue;
+	background-color: skyblue;
+}
+
+div {
+	background: pink;
+	margin: 100px 50px;
+	margin: 100px 100px;
+}
+
+#intro {
+	border: 10 px solid yellow;
+	border-radius: 5px;
+	font-weight: bold;
+	text-align: center;
+	margin: 10px;
+	color: coral;
+}
+
+#container {
+	border: 10px solid white;
+	border-radius: 5px;
+}
+
+#input {
+	border: 1px solid salmon;
+	border-radius: 5px;
+	display: block;
+	color: darkblue;
+	margin: 10px auto;
+	width: 50%;
+	height: 23px;
+	border: 1px solid green;
+	text-align: center;
+}
+
+p#inputString {
+	color: brown;
+}
+
+input.custom {
+	caret-color :lightgreen;
+	font : "Callibri",serif;
+}
+
+.button {
+	background-color: salmon;
+	color: white;
+	border-radius: 5px;
+	border-bottom: 2px solid gray;
+	border-right: 2px solid gray;
+	border-top: none;
+	border-left: none;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 0 0 50px;
+	padding:  10px 10px 10px 10px;
+	width: 20%;
+}
+
+#answer {
+	background-color: skyblue;
+	border: 1px solid skyblue;
+	border-radius: 5px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	margin: 10px auto;
+	width: 50%;
+	min-height: 50px;
+}
+
+#result {
+	color: salmon;
+	font-size: 10px;
+}
